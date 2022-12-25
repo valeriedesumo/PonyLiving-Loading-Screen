@@ -1,0 +1,93 @@
+@font-face {
+ font-family: Equestria;
+ src: url(../misc/equestria.otf);
+}
+html, body {
+ height: 95%;
+}
+body {
+ background: #F9F2C4 url(../img/background_summer.jpg) no-repeat;
+ background-size: cover;
+ overflow-x: hidden;
+ padding-bottom: 30px;
+}
+.ava {
+ position: absolute;
+ float: left;
+ margin-top: 10px;
+ text-align: center;
+ width: 10%;
+}
+.round {
+ border: 2px solid #F0E0A0;
+ border-radius: 50%;
+ box-shadow: 0px 0px 30px 3px #FF9;
+}
+.main, .mustitle {
+ position: relative;
+ margin-top: 15px;
+ margin-bottom: 10px;
+ text-align: center;
+ z-index: 1;
+ color: #F7F0C0;
+ font: 40px Equestria;
+ text-shadow: 0px -2px 1px rgba(110, 120, 90, 0.5),
+              1px -1px 1px rgba(110, 120, 90, 0.5),
+              2px  0px 1px rgba(110, 120, 90, 0.5),
+              1px  1px 1px rgba(110, 120, 90, 0.5),
+              0px  2px 1px rgba(110, 120, 90, 0.5),
+             -1px  1px 1px rgba(110, 120, 90, 0.5),
+             -2px  0px 1px rgba(110, 120, 90, 0.5),
+             -1px -1px 1px rgba(110, 120, 90, 0.5);
+}
+.cen {
+ border: 1px solid #F0E060;
+ box-shadow: 0px 0px 30px 3px #FFA;
+ margin-top: 20px;
+}
+.rare {
+ position: absolute;
+ margin-left: 10px;
+ vertical-align: top;
+ font-size: 17px;
+}
+.quote {
+ font-size: 24px;
+ margin-bottom: 10px;
+}
+.jp-no-solution {
+ display: none;
+ padding: 5px;
+ font-size: 18px;
+}
+#jplayer_inspector, a {
+ color: #F7F0C0;
+ font-size: 25px;
+}
+code {
+ font-size: 18px;
+}
+pre {
+ text-align: left;
+ white-space: pre-wrap;
+ font-size: 12px;
+}
+.credit {
+ font-size: 16px;
+}
+.mustitle {
+ position: absolute;
+ bottom: 65px;
+ float: left;
+ padding: 10px;
+ margin-left: 8px;
+ z-index: 0;
+ font-size: 21px;
+}
+.audio {
+ position: absolute;
+ bottom: 0;
+ float: left;
+ padding: 15px;
+ z-index: 0;
+}

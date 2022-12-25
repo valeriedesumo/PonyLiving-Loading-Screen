@@ -1,0 +1,96 @@
+@font-face {
+ font-family: Equestria;
+ src: url(../misc/equestria.otf);
+}
+html, body {
+ height: 95%;
+}
+body {
+ overflow-x: hidden;
+ padding-bottom: 30px;
+ -webkit-animation: bg 3s alternate infinite;
+         animation: bg 3s alternate infinite;
+}
+.ava {
+ position: absolute;
+ float: left;
+ margin-top: 10px;
+ text-align: center;
+ width: 10%;
+}
+.round {
+ border: 2px solid #500000;
+ border-radius: 50%;
+ box-shadow: 0px 0px 30px 3px #701;
+}
+.main, .mustitle {
+ border: 2px solid #C00820;
+ border-radius: 25px;
+ margin: 10px auto;
+ padding-bottom: 10px;
+ text-align: center;
+ width: 80%;
+ color: #B02020;
+ font: 40px Equestria;
+}
+.cen {
+ border: 1px solid #902030;
+ box-shadow: 0px 0px 30px 3px #500;
+ margin-top: 10px;
+}
+.rare {
+ position: absolute;
+ margin-left: 10px;
+ vertical-align: top;
+ font-size: 17px;
+}
+.quote {
+ font-size: 24px;
+}
+.jp-no-solution {
+ display: none;
+ padding: 5px;
+ font-size: 18px;
+}
+#jplayer_inspector, a {
+ color: #E04010;
+ font-size: 25px;
+}
+code {
+ font-size: 18px;
+}
+pre {
+ padding: 5px;
+ text-align: left;
+ white-space: pre-wrap;
+ font-size: 12px;
+}
+.credit {
+ float: right;
+ margin: 17px;
+ font-size: 16px;
+}
+.mustitle {
+ position: absolute;
+ bottom: 75px;
+ float: left;
+ padding: 10px;
+ margin-left: 16px;
+ width: auto;
+ font-size: 21px;
+}
+.audio {
+ position: absolute;
+ bottom: 0;
+ float: left;
+ padding: 15px;
+ z-index: 0;
+}
+@-webkit-keyframes bg {
+ from { background: #100808; }
+   to { background: #301818; }
+}
+@keyframes bg {
+ from { background: #100808; }
+   to { background: #301818; }
+}

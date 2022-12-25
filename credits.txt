@@ -1,0 +1,518 @@
+Software
+---
+jQuery - OpenJS Foundation
+ https://jquery.com/
+ (Used for jPlayer and most seasonal effects)
+
+jPlayer - Happyworm
+ http://jplayer.org/
+ https://github.com/jplayer/jPlayer
+ (Previously used for playing music in Gmod's Awesomium renderer, obsolete due to all browsers disabling autoplaying audio)
+
+Three.js Canvas Geometry Birds - mrdoob
+ https://threejs.org/
+ https://github.com/mrdoob/three.js/
+ (Used in index.php/?t=spring)
+
+Rotating Sunrays - Alexander Hogue and Blake Rogers
+ ?
+ (Used in index.php/?t=summer)
+
+Falling Leaves - PremiumCoding
+ https://creativemarket.com/premiumcoding/82199-jQuery-Autumn-Falling-Leaves
+ (Used in index.php/?t=autumn and index.php/?t=valentine)
+
+Snowstorm - Scott Schiller
+ http://www.schillmania.com/projects/snowstorm/
+ https://github.com/scottschiller/snowstorm/
+ (Used in index.php/?t=winter)
+
+Bloodshot - Suraj Thapar
+ https://cssdeck.com/labs/blood-shot-with-canvas
+ https://web.archive.org/web/20180611011315/https://github.com/tunetosuraj/bloodshots
+ (Used in index.php/?t=halloween)
+
+gfycat.js - Gfycat
+ https://github.com/gfycat/gfycat.js/
+ (Previously used in index.php for rare image, obsolete due to Gfycat cajax endpoint no longer being available)
+
+CamanJS - Ryan LeFevre
+ http://camanjs.com/
+ https://github.com/meltingice/CamanJS
+ (Used in index.php/?f=1 to edit avatar)
+
+StaticGen - Marek Lenik
+ https://github.com/criography/StaticGen
+ (Used in index.php/?f=1)
+
+Timer.js - Yuriy Husnay
+ https://husa.github.io/timer.js/
+ https://github.com/husa/timer.js/
+ (Used in index.php/?f=1)
+
+jPlayer Sound Fade Plugin - Solutions Nitriques
+ https://github.com/Solutions-Nitriques/jquery.jplayer.fade
+ (Previously used in index.php/?f=1, obsolete due to no longer using jPlayer)
+
+Zalgo Text Generator - tchouky
+ https://eeemo.net/
+ (Used in index.php/?f=1)
+
+
+Images
+---
+River Cliffs - BonesWolbach
+ https://www.deviantart.com/boneswolbach/art/River-Cliffs-294116716
+ (Used in index.php/?t=spring)
+
+Beach Background - gaby-sunflower
+ https://www.deviantart.com/gaby-sunflower/art/Beach-Background-298865862
+ (Used in index.php/?t=summer)
+
+Running of the Leaves - tgolyi
+ https://www.deviantart.com/tgolyi/art/Running-of-the-leaves-314272905
+ (Used in index.php/?t=autumn)
+
+Dark Snow Background - Grim-S-Morrison
+ https://www.deviantart.com/grim-s-morrison/art/Dark-Snow-Background-346512812
+ (Used in index.php/?t=winter)
+
+Helix Fossil - Pokemon Global Link
+ https://bulbapedia.bulbagarden.net/wiki/File:Dream_Helix_Fossil_Sprite.png
+ (Used in index.php/?date=0301)
+
+MLP Style Cupcake - StarshineCelestalis
+ https://www.deviantart.com/starshinecelestalis/art/MLP-Style-Cupcake-307646611
+ (Used in index.php/?date=0627)
+
+Hyudoro - Sega
+ ?
+ (Used in index.php/?t=halloween)
+
+Bloody GIR - Invader Zim
+ https://zim.fandom.com/wiki/Bloody_GIR
+ (Used in index.php/?f=1)
+
+Flak - ZetsuTheFirst / OppimisticPessimistE
+ https://www.reddit.com/r/twitchplayspokemon/comments/2aq5br/red_gold_and_green_skyla_is_fantastic_at_her_job/
+ https://www.reddit.com/r/twitchplayspokemon/comments/28ltoc/red_gold_and_green_fennel_comic_compilation_post/
+ (Used in index.php/?f=1)
+
+Giygas - EarthBound
+ (Used in index.php/?f=1)
+
+Pinkamena - Friendship is Magic
+ (Used in index.php/?f=1)
+
+Zalgo Pie - Luna Game 2
+ https://lunaga.me/
+ https://www.equestriagaming.net/2011/05/luna-game-2-creepypasta.html
+ (Used in index.php/?f=1)
+
+Smile HD - MisterDavie
+ https://www.youtube.com/watch?v=umWi9zBgl4Q
+ (Used in index.php/?f=1)
+
+Sonic.EXE - GuardianMobius
+ https://www.deviantart.com/guardianmobius/art/Sonic-exe-FOuNd-YOu-407737072
+ (Used in index.php/?f=1)
+
+Tails Doll - KrazyKacophony
+ https://www.furaffinity.net/view/5728064/
+ (Used in index.php/?f=1)
+
+Unknown Avatar - Valve
+ (Used when unable to retrieve avatar for a Steam ID)
+
+Misc. Pony Art - Friendship is Magic
+ (Used in favicon.ico and several loading images)
+
+g - Garry's Mod
+ (Used in favicon.ico)
+
+
+Etcetera
+---
+Equestria Font - Pixel Sagas
+ https://www.pixelsagas.com/?download=equestria
+ (Website font)
+
+Hemisphere Detector - geoPlugin
+ https://www.geoplugin.com/
+ (Used in index.php to determine season)
+ (This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com)
+
+Steam Web API - Valve
+ https://steamcommunity.com/dev
+ (Used in index.php to retrieve player avatar)
+
+
+Unknown
+---
+img/background_halloween.gif
+img/background_valentine.jpg - generic
+img/effect_heart1.png
+img/effect_heart2.png
+img/effect_heart3.png
+img/effect_leaf1.png
+img/effect_leaf2.png
+img/effect_leaf3.png
+img/effect_spatter.png
+img/foolbg_slenderman.png
+music/valentine/Friendship is Magic - The Perfect Stallion (Orchestral).ogg
+
+
+
+
+Loading Images
+---
+Twilight Butterfly - superedit
+ https://derpibooru.org/images/340069
+ (Global)
+
+Fluttershy Milkshake - TomDanTheRock
+ https://www.deviantart.com/tomdantherock/art/Fluttershy-s-Milkshake-340530567
+ (Global, Fools)
+
+Luna Moonpie - BambooDog
+ https://www.deviantart.com/bamboodog/art/Luna-Munch-209019300
+ (Global, Fools)
+
+Pinkie Pie Suggestive - SurgicalArts
+ https://derpibooru.org/images/555288
+ (Global Rare)
+
+Twilight Butterfly Surprise - IamNotANumber34665
+ https://derpibooru.org/images/2380623
+ (Global Rare)
+
+Celestia Banana - 2Snacks
+ https://www.deviantart.com/2snacks/art/Celestia-eating-a-banana-334063272
+ (Global Rare)
+
+Coco Pommel Ice Cream - DeannART
+ https://www.deviantart.com/deannart/art/Coco-Pommel-Licking-Ice-Cream-432372971
+ (Global Rare)
+
+Fluttershy Grass - Fishimira
+ https://derpibooru.org/images/1967013
+ (Global 1/10000 Rare)
+
+Fluttershy Rainbow Dash - Spectre-Z
+ http://spectre-z.tumblr.com/post/85452931569/fluttershy-c-click-through-for-a-larger-html5
+ (Original Global 1/10000 Rare)
+
+Twilight Birds - superedit
+ https://derpibooru.org/images/434006
+ (Winter)
+
+Pony OC Candy Cane - LittleCloudie
+ https://www.deviantart.com/littlecloudie/art/Candy-canes-are-delicious-421191362
+ (Winter)
+
+Pinkie Pie Candy Cane - el-yeguero
+ https://el-yeguero.tumblr.com/post/36942991805
+ (Winter)
+
+Derpy Suggestive Candy Cane - Pokehidden
+ https://derpibooru.org/images/2511629
+ (Winter Rare)
+
+Pinkie Suggestive Candy Cane - Loneless-art
+ https://derpibooru.org/images/1616068
+ (Winter Rare)
+
+Butterfly Twilight Gore - superedit
+ https://derpibooru.org/images/367318
+ (Halloween)
+
+Caramac - NekoCrispy
+ https://sociallyawkwardpony.tumblr.com/post/96111402046/caramel-and-big-mac-enjoying-their-caramel-apple
+ (Valentine)
+
+Chrysalis Heart Nom - DaBernd
+ https://www.deviantart.com/dabernd/art/ChrysieEatingCheese-399949081
+ (Valentine)
+
+Chrysipuff - Fluffle Puff
+ https://www.youtube.com/watch?v=pIVEe5bsV-w
+ (Valentine)
+
+Fluffle Puff Licking Drool - Fluffle Puff
+ https://www.youtube.com/watch?v=pIVEe5bsV-w
+ (Valentine)
+
+Chrysalis Heart Chewing - Keanno
+ https://www.deviantart.com/keanno/art/Taste-like-Love-305647268
+ (Valentine)
+
+Octavia Suggestive Heart - Midowko
+ https://derpibooru.org/images/113650
+ (Valentine Rare)
+
+AJ Noms - Fluffle Puff
+ https://www.youtube.com/watch?v=qRC4Vk6kisY
+ (Standard)
+
+Derpy Eating Muffins On Conveyer Belt - AnimatorPhoenix
+ https://www.youtube.com/watch?v=7bIjQTaklyU
+ (Standard)
+
+Twilight Eats A Bird Small - IamNotANumber34665
+ https://derpibooru.org/images/335985
+ (Standard)
+
+
+Music
+---
+Down to Earth - Jastrian
+ https://www.youtube.com/watch?v=sDTge1OPU70
+ (Global)
+
+Dusk 'Til Dawn - Jastrian
+ https://www.youtube.com/watch?v=h58WGH1-LZk
+ (Global)
+
+Through the Vines - Jastrian
+ https://www.youtube.com/watch?v=fUMvwuPkjK8
+ (Global)
+
+Springleaf Field (Night) - Hey You, Pikachu!
+ (Spring)
+
+Hearth Gatherings - Jastrian
+ https://www.youtube.com/watch?v=lUXAaIvP4ng
+ (Spring)
+
+Evening Star - Knuckles' Chaotix
+ (Spring)
+
+Seascape - Knuckles' Chaotix
+ (Spring, Summer)
+
+Piano 1-3 - Minecraft
+ (Spring)
+
+Lava Passion (Lava Reef) - Project Chaos - Xenon Odyssey
+ https://www.youtube.com/watch?v=NmvzUPJl_OI
+ https://soundcloud.com/ocremix/3-14-lava-passion-xenon
+ (Spring, Autumn)
+
+Windy Hill - Sonic Adventure
+ (Spring)
+
+Palmtree Panic Zone (Past) - Sonic CD (JP)
+ (Spring, Summer)
+
+Deep Sea of Mare - Super Mario Sunshine
+ (Spring)
+
+Page 3 Cloud - Yoshi's Story
+ (Spring)
+
+Yoshi Standing in the Wind - Yoshi's Story
+ (Spring, Autumn)
+
+Chapter 1 - pitbulljones
+ https://www.newgrounds.com/audio/listen/129587
+ (Summer)
+
+Divided from Grace (Angel Island) - Project Chaos - Rexy
+ https://soundcloud.com/ocremix/1-03-divided-from-grace-rexy
+ (Summer)
+
+Hydrochill (Hydrocity) - Project Chaos - Kanjika
+ https://soundcloud.com/ocremix/3-13-hydrochill-kanjika
+ (Summer)
+
+The Wait is Over! (Data Select) - Project Chaos - KungFuChicken!
+ https://soundcloud.com/ocremix/02-the-wait-is-over
+ (Summer)
+
+Cerulean Blue (Instrumental) - Replacer
+ https://www.youtube.com/watch?v=uSThrDFhoHM
+ (Summer)
+
+Delfino Airstrip - Super Mario Sunshine
+ (Summer)
+
+Delfino Plaza - Super Mario Sunshine
+ (Summer)
+
+Walk Cycle Song - Spongebob Squarepants
+ (Summer)
+
+Dave Dudley - Tosca
+ https://toscak7.bandcamp.com/track/dave-dudley
+ https://www.youtube.com/watch?v=FKY8BIp0Js4
+ (Summer)
+
+Wind Scene (Acoustic Guitar) - Chrono Trigger - Fabio Lima
+ https://www.youtube.com/watch?v=oObieAM4SmI
+ (Autumn)
+
+Friday (Polka) - Friendship is Witchcraft - Sherclop Pones
+ https://www.youtube.com/watch?v=SG4zSd8H-fs
+ (Autumn)
+
+Autumn - Harvest Moon DS: Cute
+ (Autumn)
+
+Lost Woods - The Legend of Zelda: A Link to the Past
+ (Autumn)
+
+Two Steps - Siren / Straylight
+ https://modarchive.org/index.php?request=view_by_moduleid&query=169378
+ https://www.youtube.com/watch?v=rqcWAUfQUwY
+ (Autumn)
+
+Dire Dire Docks (Acoustic Guitar) - Super Mario 64 - otono ishi
+ https://www.youtube.com/watch?v=IKgfFEglZeY
+ (Autumn)
+
+Forest Maze (String Quartet) - Super Mario RPG - Patti Rudisill
+ https://www.youtube.com/watch?v=ofsrTvGyg50
+ (Autumn)
+
+Forest of Illusion (Piano) - Super Mario World - Video Game Pianist (Martin Leung)
+ https://www.youtube.com/watch?v=y6e-7YRfaAs
+ (Autumn)
+
+Paper Plane - WarioWare, Inc.: Mega Microgame$!
+ (Autumn, Winter)
+
+Everyday - Carly Comando
+ https://www.youtube.com/watch?v=x-03dhsKKaA
+ https://deepelmdigital.com/album/everyday
+ (Winter)
+
+Clotho - Columns
+ (Winter)
+
+Becoming Popular (Jazz Trio) - Friendship is Magic - Music by Octavia
+ https://www.youtube.com/watch?v=IJpeVvOerdQ
+ (Winter)
+
+Main Theme (Music Box) - Gravity Falls - LittleJayneyCakes
+ https://www.youtube.com/watch?v=SNzu1YPBPBs
+ (Winter)
+
+Circles (Instrumental) - Hollywood Undead
+ (Winter)
+
+Lament of a Rusting Heart - Rusty Hearts
+ (Winter)
+
+Cry (TV Version) - Panty & Stocking with Garterbelt
+ (Winter)
+
+Epilogue (TV Version) - Panty & Stocking with Garterbelt
+ (Winter)
+
+IceCap Zone - Sonic the Hedgehog 3 - Ubergrau (Olivier Sirois)
+ ?
+ (Winter)
+
+IceCap Zone (Act 2) - Sonic the Hedgehog 3
+ (Winter)
+
+Rosalina's Observatory (Piano) - Super Mario Galaxy - Erik C "Piano Man"
+ https://www.youtube.com/watch?v=K6jn04Qb0J4
+ https://open.spotify.com/album/7dso4XEsOhMLTjSArNwGcz
+ (Winter)
+
+Stardust Road - Super Mario Galaxy
+ (Winter)
+
+Doopliss Battle - Paper Mario: The Thousand-Year Door - 3R2
+ https://web.archive.org/web/20100206145321/http://www.newgrounds.com/audio/listen/292461
+ (Halloween)
+
+Spooky Scary Skeletons - Andrew Gold
+ https://www.youtube.com/watch?v=tSdSemAMzdY
+ (Halloween)
+
+electro sp00k - Dank Dapper Dog
+ https://www.youtube.com/watch?v=ybegVHrnRgM
+ https://www.youtube.com/watch?v=lInzTuw7XeQ
+ (Halloween)
+
+Main Title - Invader ZIM
+ https://www.youtube.com/watch?v=WgX2cu9N6_8
+ (Halloween)
+
+Bats - Friendship is Magic - Jastrian
+ https://www.youtube.com/watch?v=y-OKxe7KEJA
+ (Halloween)
+
+Main Theme - Luigi's Mansion
+ (Halloween)
+
+Sandopolis Zone (Act 2) - Sonic & Knuckles
+ (Halloween)
+
+Hang Castle (Inverted) - Sonic Heroes
+ (Halloween)
+
+Mystic Mansion - Sonic Heroes
+ (Halloween)
+
+Mystic Cave Zone - Sonic the Hedgehog 2
+ (Halloween)
+
+The Perfect Stallion (Instrumental) - Friendship is Magic
+ (Valentine)
+
+♫ PARTY LIKE IT'S 10:00 PM ♪ (Catz House Theme 2) - retrovgm
+ https://soundcloud.com/retrovgm-1/party-like-its-10-pm-retrovgm
+ (Helix)
+
+Game Corner - Pokemon Diamond & Pearl
+ (Helix)
+
+Rocket Hideout - Pokemon Red & Blue
+ (Helix)
+
+TwitchPlaysPokemon The Song (Instrumental) - STARRYSKY
+ https://www.youtube.com/watch?v=Vng94_vc2Js
+ (Helix)
+
+Giygas' Theme - Earthbound
+ (Fools)
+
+Bats - Friendship is Magic
+ (Fools)
+
+Main Theme - Friendship is Magic
+ (Fools)
+
+Für Elise (Black MIDI) - Ludwig van Beethoven - ChickenAndBiscuits1357
+ https://www.youtube.com/watch?v=OZg6IjSmSPU
+ (Fools)
+
+Pokemon Green Beta Lavender Town (Black MIDI) - Gingeas
+ https://www.youtube.com/watch?v=IwgTpWS7qjI
+ (Fools)
+
+Rainbow Tylenol (Black MIDI) - Kitsune² - TheSuperMarioBros2
+ https://www.youtube.com/watch?v=X2EkG86Bwok
+ https://www.youtube.com/watch?v=-6Boazq2DHY
+ (Fools)
+
+Boss and Final Boss Mashup - Sonic CD (US) - Rose Supreme
+ https://www.youtube.com/watch?v=bkyx1WQ6fDM
+ (Fools)
+
+Can You Feel The Sunshine - Sonic R
+ (Fools)
+
+Game Over - Sonic.EXE - Sonic CD (US)
+ (Fools)
+
+Hill Act 1 - Sonic.EXE - Kyū Sawamura
+ https://www.youtube.com/watch?v=pZ6hSMFi2Qg
+ https://soundcloud.com/kyu-sawamura/sonicexe-hill-act-1gym
+ (Fools)
+
+River Twygz Bed - Super Paper Mario
+ (Fools)
