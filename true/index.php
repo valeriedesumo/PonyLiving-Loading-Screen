@@ -1,0 +1,1 @@
+<? header("Content-Type: " . image_type_to_mime_type(IMAGETYPE_PNG)); ?>

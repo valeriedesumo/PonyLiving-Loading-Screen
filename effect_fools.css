@@ -1,0 +1,157 @@
+/* Effect CSS */
+body {
+ overflow: hidden;
+}
+#static {
+ position: absolute;
+ background: #301010 no-repeat;
+ background-size: cover;
+ display: none;
+ left: 0;
+ top: 0;
+ z-index: 4;
+}
+.skew {
+ -webkit-animation: main 0.1s linear infinite;
+	 animation: main 0.1s linear infinite;
+}
+.pulse {
+  -webkit-animation: pulse 0.1s linear infinite;
+	 animation: pulse 0.1s linear infinite;
+}
+.wobble {
+  -webkit-animation: wobble 0.1s infinite;
+	 animation: wobble 0.1s infinite;
+}
+@-webkit-keyframes wobble {
+ from { -webkit-transform: translateX(-12px); }
+   to { -webkit-transform: translateX( 12px); }
+}
+
+@keyframes wobble {
+ from { transform: translateX(-12px); }
+   to { transform: translateX( 12px); }
+}
+
+
+#zalgo {
+ color: #B34;
+}
+.bgcover {
+ position: absolute;
+ background: no-repeat top 50px right 50px;
+ left: 0;
+ top: 0;
+ z-index: 2;
+ -webkit-animation: opacitypulse1 20s linear infinite;
+	 animation: opacitypulse1 20s linear infinite;
+}
+.exegifcover {
+ position: absolute;
+ background: url(foolbg_sonicexe.gif) no-repeat top 50px right 50px;
+ left: 0;
+ top: 0;
+ z-index: 5;
+ -webkit-animation: opacitypulse2 20s linear infinite;
+	 animation: opacitypulse2 20s linear infinite;
+}
+
+/* Animation CSS */
+@-webkit-keyframes main {
+ from { -webkit-transform: skewX(-60deg); }
+   to { -webkit-transform: skewX( 60deg); }
+}
+@keyframes main {
+ from { transform: skewX(-60deg); }
+   to { transform: skewX( 60deg); }
+}
+@-webkit-keyframes pulse {
+ to {
+  -webkit-transform: scale(1.5) rotate(5deg);;
+ }
+}
+@keyframes pulse {
+ to {
+  transform: scale(1.5) rotate(5deg);;
+ }
+}
+@-webkit-keyframes opacitypulse1 {
+   0.0% { opacity: 0.000; }
+  12.0% { opacity: 0.050; }
+  17.0% { opacity: 0.030; }
+  29.0% { opacity: 0.070; }
+  38.0% { opacity: 0.020; }
+  44.0% { opacity: 0.026; }
+  50.0% { opacity: 0.000; }
+  50.5% { opacity: 0.070; }
+  51.0% { opacity: 0.000; }
+  52.0% { opacity: 0.130; }
+  52.5% { opacity: 0.000; }
+  53.0% { opacity: 0.080; }
+  53.5% { opacity: 0.000; }
+  61.0% { opacity: 0.110; }
+  67.0% { opacity: 0.090; }
+  72.0% { opacity: 0.130; }
+  81.0% { opacity: 0.000; }
+ 100.0% { opacity: 0.000; }
+}
+@keyframes opacitypulse1 {
+   0.0% { opacity: 0.000; }
+  12.0% { opacity: 0.050; }
+  17.0% { opacity: 0.030; }
+  29.0% { opacity: 0.070; }
+  38.0% { opacity: 0.020; }
+  44.0% { opacity: 0.026; }
+  50.0% { opacity: 0.000; }
+  50.5% { opacity: 0.070; }
+  51.0% { opacity: 0.000; }
+  52.0% { opacity: 0.130; }
+  52.5% { opacity: 0.000; }
+  53.0% { opacity: 0.080; }
+  53.5% { opacity: 0.000; }
+  61.0% { opacity: 0.110; }
+  67.0% { opacity: 0.090; }
+  72.0% { opacity: 0.130; }
+  81.0% { opacity: 0.000; }
+ 100.0% { opacity: 0.000; }
+}
+@-webkit-keyframes opacitypulse2 {
+   0.0% { opacity: 0.050; }
+  12.0% { opacity: 0.150; }
+  17.0% { opacity: 0.130; }
+  29.0% { opacity: 0.170; }
+  38.0% { opacity: 0.120; }
+  44.0% { opacity: 0.126; }
+  50.0% { opacity: 0.050; }
+  50.5% { opacity: 0.220; }
+  51.0% { opacity: 0.050; }
+  52.0% { opacity: 0.280; }
+  52.5% { opacity: 0.050; }
+  53.0% { opacity: 0.230; }
+  53.5% { opacity: 0.050; }
+  61.0% { opacity: 0.260; }
+  67.0% { opacity: 0.240; }
+  72.0% { opacity: 0.280; }
+  81.0% { opacity: 0.050; }
+ 100.0% { opacity: 0.050; }
+}
+@keyframes opacitypulse2 {
+   0.0% { opacity: 0.050; }
+  12.0% { opacity: 0.150; }
+  17.0% { opacity: 0.130; }
+  29.0% { opacity: 0.170; }
+  38.0% { opacity: 0.120; }
+  44.0% { opacity: 0.126; }
+  50.0% { opacity: 0.050; }
+  50.5% { opacity: 0.170; }
+  51.0% { opacity: 0.050; }
+  52.0% { opacity: 0.230; }
+  52.5% { opacity: 0.050; }
+  53.0% { opacity: 0.180; }
+  53.5% { opacity: 0.050; }
+  61.0% { opacity: 0.210; }
+  67.0% { opacity: 0.190; }
+  72.0% { opacity: 0.230; }
+  81.0% { opacity: 0.050; }
+ 100.0% { opacity: 0.050; }
+}

@@ -1,0 +1,101 @@
+@font-face {
+ font-family: Equestria;
+ src: url(effect_font_equestria.ttf);
+}
+html, body {
+ height: 95%;
+}
+body {
+ background: #100808 url(background_halloween.gif);
+ overflow-x: hidden;
+ padding-bottom: 30px;
+}
+.ava {
+ position: absolute;
+ float: left;
+ margin-top: 10px;
+ text-align: center;
+ width: 10%;
+}
+.round {
+ border: 2px solid #500000;
+ border-radius: 50%;
+ box-shadow: 0px 0px 30px 3px #701;
+}
+.main, .mustitle {
+ background: #100000 url(div_halloween.gif);
+ border: 2px solid #C02008;
+ border-radius: 25px;
+ margin: 10px auto;
+ padding-bottom: 10px;
+ text-align: center;
+ width: 80%;
+ color: #E04010;
+ font: 40px Equestria;
+ text-shadow: 0px -2px 1px #400,
+	      1px -1px 1px #400,
+	      2px  0px 1px #400,
+	      1px  1px 1px #400,
+	      0px  2px 1px #400,
+	     -1px  1px 1px #400,
+	     -2px  0px 1px #400,
+	     -1px -1px 1px #400;
+}
+.cen {
+ border: 1px solid #904020;
+ box-shadow: 0px 0px 30px 3px #500;
+ margin-top: 10px;
+}
+.rare {
+ position: absolute;
+ margin-left: 10px;
+ vertical-align: top;
+ font-size: 17px;
+}
+.quote {
+ font-size: 24px;
+}
+.jp-no-solution {
+ display: none;
+ padding: 5px;
+ font-size: 18px;
+}
+#jplayer_inspector, a {
+ color: #E04010;
+ font-size: 25px;
+}
+code {
+ font-size: 18px;
+}
+pre {
+ padding: 5px;
+ text-align: left;
+ white-space: pre-wrap;
+ font-size: 12px;
+}
+.credit {
+ float: right;
+ margin: 17px;
+ font-size: 16px;
+}
+.mustitle {
+ position: absolute;
+ bottom: 0;
+ float: left;
+ padding: 10px;
+ transition-duration: 0.3s;
+ width: auto;
+ font-size: 21px;
+}
+.mustitle:hover {
+ opacity: 0.3;
+}
+#bloodshot {
+ position: absolute;
+ display: block;
+ z-index: 1;
+}
+.hyudoro {
+ position: absolute;
+ z-index: 2;
+}

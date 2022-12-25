@@ -1,0 +1,64 @@
+/* Rotating Sunrays (by Alexander Hogue and Blake Rogers)
+    Displays CSS3-animated sunrays
+*/
+
+.sunray {
+ position: absolute;
+ top: -90px;
+ left: -590px;
+ z-index: 2;
+}
+.sunray .outer {
+ -webkit-animation: rotation 2s infinite linear;
+         animation: rotation 2s infinite linear;
+}
+.sunray b {
+ display: block;
+ margin: -54px;
+ border: solid rgba(255, 255, 100, 0.22);
+ border-width: 27px 510px;
+}
+.sunray b:nth-child(1) {
+ -webkit-transform: rotate(20deg);
+	 transform: rotate(20deg);
+}
+.sunray b:nth-child(2) {
+ -webkit-transform: rotate(40deg);
+	 transform: rotate(40deg);
+}
+.sunray b:nth-child(3) {
+ -webkit-transform: rotate(60deg);
+	 transform: rotate(60deg);
+}
+.sunray b:nth-child(4) {
+ -webkit-transform: rotate(80deg);
+	 transform: rotate(80deg);
+}
+.sunray b:nth-child(5) {
+ -webkit-transform: rotate(100deg);
+	 transform: rotate(100deg);
+}
+.sunray b:nth-child(6) {
+ -webkit-transform: rotate(120deg);
+	 transform: rotate(120deg);
+}
+.sunray b:nth-child(7) {
+ -webkit-transform: rotate(140deg);
+	 transform: rotate(140deg);
+}
+.sunray b:nth-child(8) {
+ -webkit-transform: rotate(160deg);
+	 transform: rotate(160deg);
+}
+.sunray b:nth-child(9) {
+ -webkit-transform: rotate(180deg);
+	 transform: rotate(180deg);
+}
+@-webkit-keyframes rotation {
+ from { -webkit-transform: rotate( 0deg); }
+   to { -webkit-transform: rotate(20deg); }
+}
+@keyframes rotation {
+ from { transform: rotate( 0deg); }
+   to { transform: rotate(20deg); }
+}
