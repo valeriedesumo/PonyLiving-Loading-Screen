@@ -9,12 +9,12 @@ Garry's Mod renders HTML in [Awesomium](https://web.archive.org/web/201705061603
 If the URL contains "%s" or "%m", Gmod will replace them with the player's Steam ID and the server's current map respectively, which can be then processed by the web page as PHP GET parameters or with some other method. Gmod will also call the GameDetails function in Javascript if it exists, passing in the server name, map name, gamemode, player's Steam ID, and other details. It will also call other functions related to file downloading progress.
 
 ## Repository
-I originally made this project in 2013, but I've cleaned up the code a bit for presentation here. I've fixed several bugs, reorganized the files into folders, deprecated [jPlayer](https://jplayer.org/) which I used for cross-platform autoplaying audio but browsers don't allow that anymore, deprecated [gfycat.js](https://github.com/gfycat/gfycat.js/) since their API endpoint is no longer available, and updated the code for compatibility with [PHP 8.1](https://www.php.net/releases/8.1/en.php). The original files (except the music) can be seen in the commit history.
+I originally made this project in 2013, but I've cleaned up the code a bit for presentation here. I've fixed several bugs, reorganized the files into folders, deprecated [jPlayer](https://jplayer.org/) which I used for cross-platform autoplaying audio but browsers don't allow that anymore, deprecated [gfycat.js](https://github.com/gfycat/gfycat.js/) since their API endpoint is no longer available, and updated the code for compatibility with [PHP 8.1](https://www.php.net/releases/8.1/en.php). I've also removed my Steam API key, so anyone running or using this code will need to provide their own. The original files (except the music) can be seen in the [commit history](https://github.com/valeriedesumo/PonyLiving-Loading-Screen/commit/fb9e6a31cd043f969166ae09ba5cf6053f8938d6).
 
 ## Features
 * Themes for each season and some holidays, uses [geoPlugin's API](https://www.geoplugin.com/) to find the viewer's hemisphere to determine the appropriate season
 * Events for special dates such as PonyLiving's anniversary
-* April Fool's event is a creepy static-covered theme with jitters, text corruption, and other effects, dynamically applied through [Javascript](js/effect_fools.js)
+* [April Fool's theme](js/effect_fools.js) is a creepy static-covered theme with jitters, text corruption, and other effects, dynamically applied through Javascript
 * Random songs and loading images based on theme, with some images being rare
 * Uses [Steam Web API](https://steamcommunity.com/dev) for retrieving player's avatar and username
 * PHP parameters for debugging and variable overrides
